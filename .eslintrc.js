@@ -21,6 +21,8 @@ module.exports = {
     },
     jsx: true,
     useJSXTextNode: true,
+    project: "./tsconfig.json", // TypeScript 프로젝트 파일 경로
+    tsconfigRootDir: __dirname, // tsconfig.json 파일의 루트 디렉토리
   },
   settings: {
     react: {
